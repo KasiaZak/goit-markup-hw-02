@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link href="styles.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -14,36 +15,43 @@
   <body>
     <header>
       <nav>
-        <a class="webstudio-link" href="./index.html">
-          <span class="highlight">Web</span>Studio</a
+        <a class="webstudio link" href="./index.html">
+          Web<span class="highlight-dark">Studio</span></a
         >
         <ul class="menu-nav">
-          <li><a class="menu-nav-item" href="/studio">Studio</a></li>
+          <li><a class="menu-nav-item" href="./index.html">Studio</a></li>
           <li>
             <a class="menu-nav-item" href="./portfolio.html">Portfolio</a>
           </li>
-          <li><a class="menu-nav-item" href="/contacts">Contacts</a></li>
+          <li><a class="menu-nav-item" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul class="address-list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="list">
+          <li>
+            <a class="contact link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
       <section>
-        <ul class="menu">
+        <h1>Portfolio main</h1>
+        <ul class="list btn">
           <li><button type="button" class="btn-menu">All</button></li>
           <li><button type="button" class="btn-menu">Web Site</button></li>
           <li><button type="button" class="btn-menu">App</button></li>
           <li><button type="button" class="btn-menu">Design</button></li>
           <li><button type="button" class="btn-menu">Marketing</button></li>
         </ul>
-      </section>
-      <section>
-        <ul class="photos-list">
+        <ul class="photos list">
           <li class="photos-list-item">
             <img
               src="./images/banking-app.jpg"
@@ -51,8 +59,8 @@
               width="360"
               height="300"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h2 class="photos-header">Banking App Interface Concept</h2>
+            <p class="photos-paragraph">App</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -61,8 +69,8 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h2 class="photos-header">Cashless Payment</h2>
+            <p class="photos-paragraph">Marketing</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -71,8 +79,8 @@
               width="360"
               height="300"
             />
-            <h3>Meditaion App</h3>
-            <p>App</p>
+            <h2 class="photos-header">Meditaion App</h2>
+            <p class="photos-paragraph">App</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -81,8 +89,8 @@
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h2 class="photos-header">Taxi Service</h2>
+            <p class="photos-paragraph">Marketing</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -91,8 +99,8 @@
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h2 class="photos-header">Screen Illustrations</h2>
+            <p class="photos-paragraph">Design</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -101,8 +109,8 @@
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h2 class="photos-header">Online Courses</h2>
+            <p class="photos-paragraph">Marketing</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -111,8 +119,8 @@
               width="360"
               height="300"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h2 class="photos-header">Instagram Stories Concept</h2>
+            <p class="photos-paragraph">Design</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -121,8 +129,8 @@
               width="360"
               height="300"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h2 class="photos-header">Organic Food</h2>
+            <p class="photos-paragraph">Web Site</p>
           </li>
           <li class="photos-list-item">
             <img
@@ -131,16 +139,16 @@
               width="360"
               height="300"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h2 class="photos-header">Fresh Coffee</h2>
+            <p class="photos-paragraph">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
   </body>
   <footer class="footer">
-    <a class="webstudio-link-footer" href="./index.html">
-      <span class="highlight">Web</span>Studio</a
+    <a class="webstudio-footer link" href="./index.html">
+      Web<span class="highlight-bright">Studio</span></a
     >
     <p>
       Increase the flow of customers and sales for your business with digital
