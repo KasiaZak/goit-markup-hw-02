@@ -1,7 +1,7 @@
 :root {
   --navy-blue: #2e2f42;
   --slate: #434455;
-  --white: white;
+  --white: #ffffff;
   --cloud: #f4f4fd;
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -9,7 +9,7 @@
 }
 
 body {
-  background: var(--color-white);
+  background: var(--white);
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
 }
@@ -23,7 +23,6 @@ body {
 }
 
 .menu-nav {
-  list-style-type: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -32,7 +31,6 @@ body {
 
 .menu-nav-item {
   color: var(--navy-blue);
-  text-decoration: none;
 }
 
 .menu-nav-item:active,
@@ -67,7 +65,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 0.116667;
+  line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
@@ -85,7 +83,7 @@ body {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
@@ -105,9 +103,6 @@ body {
 .btn-order:focus {
   color: var(--white);
   background-color: var(--ocean);
-}
-.hide-section {
-  display: none;
 }
 
 .header-third {
@@ -134,19 +129,16 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
 .team-list-item {
   background-color: var(--white);
 }
 .menu {
   list-style-type: none;
-}
-
-.photos-list-item {
-  text-decoration: none;
 }
 
 .btn-menu {
@@ -159,6 +151,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn-menu:hover,
@@ -191,16 +184,20 @@ body {
 }
 .footer {
   background-color: var(--navy-blue);
+}
+.footer-paragraph {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--cloud);
 }
 
-.footer a {
+/* .footer a {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 0.116667;
+  line-height: 1.17;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   color: var(--iris);
-}
+} */
