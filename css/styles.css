@@ -24,7 +24,6 @@ body {
 
 .menu-nav-item {
   color: var(--navy-blue);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -34,7 +33,6 @@ body {
 .menu-nav-item:hover,
 .menu-nav-item:focus {
   color: var(--ocean);
-  text-decoration: underline;
 }
 
 .address {
@@ -43,7 +41,6 @@ body {
 
 .contact {
   color: var(--slate);
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -75,7 +72,8 @@ body {
   background-color: var(--navy-blue);
 }
 
-.header-first {
+.header-solutions,
+.header-portfolio {
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
@@ -92,7 +90,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border: 0;
+  border: none;
   cursor: pointer;
 }
 
@@ -111,7 +109,6 @@ body {
 }
 
 .paragraph {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -138,7 +135,7 @@ body {
 .btn-menu {
   color: var(--iris);
   background-color: var(--cloud);
-  border: 0;
+  border: none;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -159,6 +156,10 @@ body {
   list-style-type: none;
 }
 
+.photos .link {
+  cursor: pointer;
+}
+
 .photos-header {
   color: var(--navy-blue);
   font-size: 20px;
@@ -169,7 +170,6 @@ body {
 
 .photos-paragraph {
   color: var(--slate);
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
